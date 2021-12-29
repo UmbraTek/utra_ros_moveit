@@ -5,6 +5,9 @@ ros demo for use moveit to controll the utra
 
 You must connect the utra with ros first, reference the [Run RViz and connect with utra](https://github.com/UmbraTek/utra_ros#6-run-rviz-and-connect-with-utra). And **Enable** your Utra
 
+# Move to home
+
+For safety! you need to move your utra to zero pose by studio
 
 # Run demo
 
