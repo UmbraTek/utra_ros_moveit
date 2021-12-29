@@ -51,7 +51,7 @@ class MoveItIkDemo:
         target_pose.header.stamp = rospy.Time.now()    
         target_pose.pose.position.x = current_pose.pose.position.x
         target_pose.pose.position.y = current_pose.pose.position.y
-        target_pose.pose.position.z = current_pose.pose.position.z-0.1 # move down 0.1m
+        target_pose.pose.position.z = current_pose.pose.position.z+0.1 # move down 0.1m
         target_pose.pose.orientation.x = current_pose.pose.orientation.x
         target_pose.pose.orientation.y = current_pose.pose.orientation.y
         target_pose.pose.orientation.z = current_pose.pose.orientation.z

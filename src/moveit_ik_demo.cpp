@@ -52,7 +52,7 @@ int main(int argc, char **argv)
 
     target_pose.position.x = current_pose.pose.position.x;
     target_pose.position.y = current_pose.pose.position.y;
-    target_pose.position.z = current_pose.pose.position.z-0.1; // move down 0.1m
+    target_pose.position.z = current_pose.pose.position.z+0.1; // move down 0.1m
 
     arm.setStartStateToCurrentState();
     //set to target pose and move
